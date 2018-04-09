@@ -1,8 +1,10 @@
 {
-  "name": "curriculum_vitae",
+  "name": "Curriculum Vitae",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage": "https://enkhee-Osiris.github.io/curriculum_vitae/"
   "dependencies": {
+    "gh-pages": "^1.1.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "react-scripts": "1.1.4"
@@ -11,6 +13,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
     "eject": "react-scripts eject"
   }
 }
