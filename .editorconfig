@@ -12,6 +12,6 @@ indent_size = 2
 indent_style = space
 
 # Format Config
-[{package.json,.editorconfig,.babelrc,.eslintrc}]
+[{package.json,.editorconfig,.babelrc,.eslintrc,.stylelintrc}]
 indent_style = space
 indent_size = 2
