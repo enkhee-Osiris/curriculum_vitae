@@ -1,17 +1,28 @@
 {
   "name": "curriculum_vitae",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "homepage": "https://enkhee-Osiris.github.io/curriculum_vitae/",
   "dependencies": {
-    "gh-pages": "^1.1.0",
     "react": "^16.3.1",
-    "react-dom": "^16.3.1",
-    "react-scripts": "1.1.4"
+    "react-dom": "^16.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "gh-pages": "^1.1.0",
+    "react-scripts": "1.1.4",
+    "stylelint": "^9.2.0",
+    "stylelint-config-standard": "^18.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "test:lint:js": "eslint --ext=js --ext=jsx .",
+    "test:lint:css": "stylelint '**/*.css'",
     "test": "react-scripts test --env=jsdom",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
