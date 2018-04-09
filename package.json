@@ -14,16 +14,15 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.7.0",
     "gh-pages": "^1.1.0",
-    "react-scripts": "1.1.4",
-    "stylelint": "^9.2.0",
-    "stylelint-config-standard": "^18.2.0"
+    "npm-run-all": "^4.1.2",
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test:lint:js": "eslint --ext=js --ext=jsx .",
-    "test:lint:css": "stylelint '**/*.css'",
-    "test": "react-scripts test --env=jsdom",
+    "test:unit": "react-scripts test --env=jsdom",
+    "test": "run-s test:**",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
