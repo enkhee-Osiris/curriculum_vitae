@@ -19,3 +19,6 @@ indent_style = space
 [{package.json,.editorconfig,.babelrc,.eslintrc,.stylelintrc}]
 indent_style = space
 indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
