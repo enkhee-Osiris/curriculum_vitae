@@ -47,7 +47,7 @@ Experience
 
 Education
 -----------
-B.A. in Mongolian University of Science and Technology, Ulaanbaatar (2013 - 2018)
+B.S. in Mongolian University of Science and Technology, Ulaanbaatar (2013 - 2018)
   * Major in Computer Science
 
 Hobbies

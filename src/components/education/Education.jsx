@@ -6,7 +6,7 @@ function Education() {
     <Fragment>
       <h3>Education</h3>
       <div>
-        B.A. in Mongolian University of Science and Technology, Ulaanbaatar (2013 - 2018)
+        B.S. in Mongolian University of Science and Technology, Ulaanbaatar (2013 - 2018)
         <List items={['Major in Computer Science']} />
       </div>
     </Fragment>
