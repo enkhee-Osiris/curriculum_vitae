@@ -1,3 +1,26 @@
 body {
-    font-family: 'Merriweather', serif !important;
+    font-weight: 300;
+}
+header {
+    margin-top: 2rem;
+    text-align: center;
+}
+h1, h2, h3 {
+    font-weight: 100;
+}
+section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+ul {
+    margin-left: 1rem;
+}
+@media (min-width: 550px) {
+    header {
+        margin-top: 8rem;
+    }
+    section {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
 }

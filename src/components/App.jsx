@@ -1,15 +1,34 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import Header from './header/Header';
+import Section from './section/Section';
+import Summary from './summary/summary';
+import Skill from './skill/Skill';
+import Experience from './experience/Experience';
+import Education from './education/Education';
+import Hobby from './hobby/Hobby';
+import Footer from './footer/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1 className="App-title">Welcome to React</h1>
-      </header>
-      <p className="App-intro">
-        To get started, edit <code>src/App.js</code> and save to reload.
-      </p>
-    </div>
+    <Fragment>
+      <Header/>
+      <Section>
+        <Summary/>
+      </Section>
+      <Section>
+        <Skill/>
+      </Section>
+      <Section>
+        <Experience/>
+      </Section>
+      <Section>
+        <Education/>
+      </Section>
+      <Section>
+        <Hobby/>
+      </Section>
+      <Footer/>
+    </Fragment>
   );
 }
 
