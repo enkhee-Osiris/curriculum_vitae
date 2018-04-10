@@ -2,9 +2,6 @@ import React, { Fragment } from 'react';
 import List from '../list/List';
 
 function Education() {
-  const educationList = [
-    ''
-  ]
   return(
     <Fragment>
       <h3>Education</h3>
