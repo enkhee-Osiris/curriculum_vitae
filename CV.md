@@ -9,7 +9,7 @@ Summary
   * Full-Stack developer with 3 years of experience.
   * Experience in Software Development including Analysis, Design, Development and Testing.
   * Experience in Functional and Object Orieted Programming.
-  *
+  * Experience with CI/CD.
 
 Skills
 -------
@@ -22,7 +22,7 @@ Skills
 | **VCS**          | git                                            |
 | **Platforms**    | Linux, Unix                                    |
 | **Web Services** | REST, SOAP                                     |
-| **Tools**        | Vim, Emacs,                                    |
+| **Tools**        | Vim, Emacs                                     |
 | **Build Tools**  | Bower, WebPack, Gulp                           |
 | **CI/CD**        | Jenkins, Travis                                |
 
@@ -47,7 +47,7 @@ Experience
 
 Education
 -----------
-B.A. in Mongolian University of Science and Technology (2013 - 2018)
+B.A. in Mongolian University of Science and Technology, Ulaanbaatar (2013 - 2018)
   * Major in Software Engineering
 
 Hobbies
