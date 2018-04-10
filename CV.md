@@ -1,7 +1,7 @@
 Enkh-Erdene Bolormaa
 ===========================
-Mail: [Enkhee.ag@gmail.com](mailto:enkhee.ag@gmail.com)
-Web: [enkhee-Osiris.github.io](https://enkhee-Osiris.github.io)
+Mail: [Enkhee.ag@gmail.com](mailto:enkhee.ag@gmail.com)  
+Web: [enkhee-Osiris.github.io](https://enkhee-Osiris.github.io)  
 GitHub: [github.com/enkhee-Osiris](https://github.com/enkhee-Osiris/curriculum_vitae)
 
 Summary
