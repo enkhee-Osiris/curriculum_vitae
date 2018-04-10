@@ -5,7 +5,7 @@ header {
     margin-top: 2rem;
     text-align: center;
 }
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
     font-weight: 100;
 }
 section {
@@ -14,6 +14,37 @@ section {
 }
 ul {
     margin-left: 1rem;
+}
+.vertical-timeline::before {
+    background: #222;
+    width: 1px;
+}
+.vertical-timeline-element-icon {
+    box-shadow: none;
+    border: solid 1px #222;
+    background-color: #fff;
+    margin-left: -33px;
+}
+.vertical-timeline-element-content {
+    padding: 0;
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+    border-bottom: solid 1px #222;
+}
+.vertical-timeline-element-content h5 {
+    font-weight: 500;
+}
+.vertical-timeline-element-content ul {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.vertical-timeline-element-content .vertical-timeline-element-date {
+    left: 137%;
+    top: 12px;
+}
+.vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content .vertical-timeline-element-date, .vertical-timeline-element:nth-child(2n):not(.vertical-timeline-element--left) .vertical-timeline-element-content .vertical-timeline-element-date {
+    right: 137%;
 }
 @media (min-width: 550px) {
     header {

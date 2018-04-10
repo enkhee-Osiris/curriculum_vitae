@@ -4,8 +4,10 @@
   "private": true,
   "homepage": "https://enkhee-Osiris.github.io/curriculum_vitae/",
   "dependencies": {
+    "prop-types": "^15.6.1",
     "react": "^16.3.1",
-    "react-dom": "^16.3.1"
+    "react-dom": "^16.3.1",
+    "react-vertical-timeline-component": "^2.0.6"
   },
   "devDependencies": {
     "eslint": "^4.19.1",

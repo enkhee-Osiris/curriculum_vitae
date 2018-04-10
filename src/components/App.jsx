@@ -11,23 +11,23 @@ import Footer from './footer/Footer';
 function App() {
   return (
     <Fragment>
-      <Header/>
+      <Header />
       <Section>
-        <Summary/>
+        <Summary />
       </Section>
       <Section>
-        <Skill/>
+        <Skill />
       </Section>
       <Section>
-        <Experience/>
+        <Experience />
       </Section>
       <Section>
-        <Education/>
+        <Education />
       </Section>
       <Section>
-        <Hobby/>
+        <Hobby />
       </Section>
-      <Footer/>
+      <Footer />
     </Fragment>
   );
 }

@@ -9,9 +9,9 @@ function Hobby() {
     'Snowboarding',
     'Cycling',
     'Wall climbing',
-    'Bowling'
-  ]
-  return(
+    'Bowling',
+  ];
+  return (
     <Fragment>
       <h3>Hobbies</h3>
       <List items={hobbies} />
