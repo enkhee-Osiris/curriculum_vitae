@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Footer />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        "Crafted with",
+        <span
+          style={
+                    Object {
+                              "color": "#fa1414",
+                            }
+          }
+>
+           ♥ 
+</span>,
+        "by ",
+        <a
+          href="http://github.com/enkhee-Osiris"
+          style={
+                    Object {
+                              "color": "#fa1414",
+                              "textDecoration": "none",
+                            }
+          }
+>
+          Osiris
+</a>,
+        ".",
+      ],
+      "style": Object {
+        "fontSize": "1.7rem",
+        "marginBottom": "3rem",
+        "textAlign": "center",
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      "Crafted with",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": " ♥ ",
+          "style": Object {
+            "color": "#fa1414",
+          },
+        },
+        "ref": null,
+        "rendered": " ♥ ",
+        "type": "span",
+      },
+      "by ",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Osiris",
+          "href": "http://github.com/enkhee-Osiris",
+          "style": Object {
+            "color": "#fa1414",
+            "textDecoration": "none",
+          },
+        },
+        "ref": null,
+        "rendered": "Osiris",
+        "type": "a",
+      },
+      ".",
+    ],
+    "type": "footer",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          "Crafted with",
+          <span
+            style={
+                        Object {
+                                    "color": "#fa1414",
+                                  }
+            }
+>
+             ♥ 
+</span>,
+          "by ",
+          <a
+            href="http://github.com/enkhee-Osiris"
+            style={
+                        Object {
+                                    "color": "#fa1414",
+                                    "textDecoration": "none",
+                                  }
+            }
+>
+            Osiris
+</a>,
+          ".",
+        ],
+        "style": Object {
+          "fontSize": "1.7rem",
+          "marginBottom": "3rem",
+          "textAlign": "center",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        "Crafted with",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": " ♥ ",
+            "style": Object {
+              "color": "#fa1414",
+            },
+          },
+          "ref": null,
+          "rendered": " ♥ ",
+          "type": "span",
+        },
+        "by ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Osiris",
+            "href": "http://github.com/enkhee-Osiris",
+            "style": Object {
+              "color": "#fa1414",
+              "textDecoration": "none",
+            },
+          },
+          "ref": null,
+          "rendered": "Osiris",
+          "type": "a",
+        },
+        ".",
+      ],
+      "type": "footer",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

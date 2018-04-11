@@ -1,0 +1,389 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Experience /> renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Experience
+    datas={
+        Array [
+            Object {
+              "company": "test comp",
+              "date": "April 2017 - present",
+              "id": 1,
+              "items": Array [
+                "test item",
+              ],
+              "position": "test position",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <h3>
+          Experience
+</h3>,
+        <VerticalTimeline
+          animate={false}
+          className=""
+>
+          <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    date="April 2017 - present"
+                    icon={null}
+                    iconStyle={null}
+                    id=""
+                    position=""
+                    style={null}
+          >
+                    <h4
+                              className="vertical-timeline-element-title"
+                    >
+                              test position
+                    </h4>
+                    <h5
+                              className="vertical-timeline-element-subtitle"
+                    >
+                              test comp
+                    </h5>
+                    <List
+                              items={
+                                        Array [
+                                                  "test item",
+                                                ]
+                              }
+                    />
+          </VerticalTimelineElement>
+</VerticalTimeline>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Experience",
+        },
+        "ref": null,
+        "rendered": "Experience",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "animate": false,
+          "children": Array [
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="April 2017 - present"
+              icon={null}
+              iconStyle={null}
+              id=""
+              position=""
+              style={null}
+>
+              <h4
+                            className="vertical-timeline-element-title"
+              >
+                            test position
+              </h4>
+              <h5
+                            className="vertical-timeline-element-subtitle"
+              >
+                            test comp
+              </h5>
+              <List
+                            items={
+                                          Array [
+                                                        "test item",
+                                                      ]
+                            }
+              />
+</VerticalTimelineElement>,
+          ],
+          "className": "",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <h4
+                  className="vertical-timeline-element-title"
+>
+                  test position
+</h4>,
+                <h5
+                  className="vertical-timeline-element-subtitle"
+>
+                  test comp
+</h5>,
+                <List
+                  items={
+                                    Array [
+                                                      "test item",
+                                                    ]
+                  }
+/>,
+              ],
+              "className": "vertical-timeline-element--work",
+              "date": "April 2017 - present",
+              "icon": null,
+              "iconStyle": null,
+              "id": "",
+              "position": "",
+              "style": null,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "test position",
+                  "className": "vertical-timeline-element-title",
+                },
+                "ref": null,
+                "rendered": "test position",
+                "type": "h4",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "test comp",
+                  "className": "vertical-timeline-element-subtitle",
+                },
+                "ref": null,
+                "rendered": "test comp",
+                "type": "h5",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "items": Array [
+                    "test item",
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <h3>
+            Experience
+</h3>,
+          <VerticalTimeline
+            animate={false}
+            className=""
+>
+            <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        date="April 2017 - present"
+                        icon={null}
+                        iconStyle={null}
+                        id=""
+                        position=""
+                        style={null}
+            >
+                        <h4
+                                    className="vertical-timeline-element-title"
+                        >
+                                    test position
+                        </h4>
+                        <h5
+                                    className="vertical-timeline-element-subtitle"
+                        >
+                                    test comp
+                        </h5>
+                        <List
+                                    items={
+                                                Array [
+                                                            "test item",
+                                                          ]
+                                    }
+                        />
+            </VerticalTimelineElement>
+</VerticalTimeline>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Experience",
+          },
+          "ref": null,
+          "rendered": "Experience",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "animate": false,
+            "children": Array [
+              <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                date="April 2017 - present"
+                icon={null}
+                iconStyle={null}
+                id=""
+                position=""
+                style={null}
+>
+                <h4
+                                className="vertical-timeline-element-title"
+                >
+                                test position
+                </h4>
+                <h5
+                                className="vertical-timeline-element-subtitle"
+                >
+                                test comp
+                </h5>
+                <List
+                                items={
+                                                Array [
+                                                                "test item",
+                                                              ]
+                                }
+                />
+</VerticalTimelineElement>,
+            ],
+            "className": "",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <h4
+                    className="vertical-timeline-element-title"
+>
+                    test position
+</h4>,
+                  <h5
+                    className="vertical-timeline-element-subtitle"
+>
+                    test comp
+</h5>,
+                  <List
+                    items={
+                                        Array [
+                                                            "test item",
+                                                          ]
+                    }
+/>,
+                ],
+                "className": "vertical-timeline-element--work",
+                "date": "April 2017 - present",
+                "icon": null,
+                "iconStyle": null,
+                "id": "",
+                "position": "",
+                "style": null,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "test position",
+                    "className": "vertical-timeline-element-title",
+                  },
+                  "ref": null,
+                  "rendered": "test position",
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "test comp",
+                    "className": "vertical-timeline-element-subtitle",
+                  },
+                  "ref": null,
+                  "rendered": "test comp",
+                  "type": "h5",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "items": Array [
+                      "test item",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

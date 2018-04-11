@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Table /> renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Table
+    datas={
+        Object {
+            "key": "value",
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <tbody>
+        <tr>
+                <td
+                        style={
+                                Object {
+                                        "fontWeight": 500,
+                                      }
+                        }
+                >
+                        key
+                </td>
+                <td>
+                        value
+                </td>
+        </tr>
+</tbody>,
+      "className": "u-full-width",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <tr>
+            <td
+                        style={
+                                    Object {
+                                                "fontWeight": 500,
+                                              }
+                        }
+            >
+                        key
+            </td>
+            <td>
+                        value
+            </td>
+</tr>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "key",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <td
+                style={
+                                Object {
+                                                "fontWeight": 500,
+                                              }
+                }
+>
+                key
+</td>,
+              <td>
+                value
+</td>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "key",
+                "style": Object {
+                  "fontWeight": 500,
+                },
+              },
+              "ref": null,
+              "rendered": "key",
+              "type": "td",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "value",
+              },
+              "ref": null,
+              "rendered": "value",
+              "type": "td",
+            },
+          ],
+          "type": "tr",
+        },
+      ],
+      "type": "tbody",
+    },
+    "type": "table",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <tbody>
+          <tr>
+                    <td
+                              style={
+                                        Object {
+                                                  "fontWeight": 500,
+                                                }
+                              }
+                    >
+                              key
+                    </td>
+                    <td>
+                              value
+                    </td>
+          </tr>
+</tbody>,
+        "className": "u-full-width",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <tr>
+              <td
+                            style={
+                                          Object {
+                                                        "fontWeight": 500,
+                                                      }
+                            }
+              >
+                            key
+              </td>
+              <td>
+                            value
+              </td>
+</tr>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "key",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td
+                  style={
+                                    Object {
+                                                      "fontWeight": 500,
+                                                    }
+                  }
+>
+                  key
+</td>,
+                <td>
+                  value
+</td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "key",
+                  "style": Object {
+                    "fontWeight": 500,
+                  },
+                },
+                "ref": null,
+                "rendered": "key",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "value",
+                },
+                "ref": null,
+                "rendered": "value",
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+        ],
+        "type": "tbody",
+      },
+      "type": "table",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

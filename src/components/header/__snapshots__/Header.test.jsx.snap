@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <img
+          alt="logo"
+          src="image.png"
+          width="200px"
+/>,
+        <h2>
+          Enkh-Erdene Bolormaa
+</h2>,
+        <h3>
+          Full-Stack Web Developer
+</h3>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "alt": "logo",
+          "src": "image.png",
+          "width": "200px",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Enkh-Erdene Bolormaa",
+        },
+        "ref": null,
+        "rendered": "Enkh-Erdene Bolormaa",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Full-Stack Web Developer",
+        },
+        "ref": null,
+        "rendered": "Full-Stack Web Developer",
+        "type": "h3",
+      },
+    ],
+    "type": "header",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <img
+            alt="logo"
+            src="image.png"
+            width="200px"
+/>,
+          <h2>
+            Enkh-Erdene Bolormaa
+</h2>,
+          <h3>
+            Full-Stack Web Developer
+</h3>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "logo",
+            "src": "image.png",
+            "width": "200px",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Enkh-Erdene Bolormaa",
+          },
+          "ref": null,
+          "rendered": "Enkh-Erdene Bolormaa",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Full-Stack Web Developer",
+          },
+          "ref": null,
+          "rendered": "Full-Stack Web Developer",
+          "type": "h3",
+        },
+      ],
+      "type": "header",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
