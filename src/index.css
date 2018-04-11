@@ -23,7 +23,7 @@ ul {
     box-shadow: none;
     border: solid 1px #222;
     background-color: #fff;
-    margin-left: -33px;
+    margin-left: -3px;
 }
 .vertical-timeline-element-content {
     padding: 0;
@@ -53,5 +53,10 @@ ul {
     section {
         padding-top: 4rem;
         padding-bottom: 4rem;
+    }
+}
+@media (min-width: 1170px) {
+    .vertical-timeline-element-icon {
+        margin-left: -33px;
     }
 }
