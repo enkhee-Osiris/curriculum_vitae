@@ -26,7 +26,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test:lint:js": "eslint --ext=js --ext=jsx .",
-    "test:unit": "react-scripts test --env=jsdom",
+    "test:unit": "react-scripts test --env=jsdom --updateSnapshot",
     "test": "run-s test:**",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
