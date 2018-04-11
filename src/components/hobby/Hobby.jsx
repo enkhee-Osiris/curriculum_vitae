@@ -1,22 +1,16 @@
 import React, { Fragment } from 'react';
+import { arrayOf, string } from 'prop-types';
 import List from '../list/List';
 
-function Hobby() {
-  const hobbies = [
-    'Hand lettering',
-    'Calligraphy',
-    'Origami',
-    'Snowboarding',
-    'Cycling',
-    'Wall climbing',
-    'Bowling',
-  ];
-  return (
-    <Fragment>
-      <h3>Hobbies</h3>
-      <List items={hobbies} />
-    </Fragment>
-  );
-}
+const Hobby = ({ items }) => (
+  <Fragment>
+    <h3>Hobbies</h3>
+    <List items={items} />
+  </Fragment>
+);
 
-export default Hobby;
+Hobby.propTypes = {
+  items: arrayOf(string).isRequired,
+};
+
+export { Hobby as default };

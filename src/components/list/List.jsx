@@ -1,20 +1,18 @@
 import React from 'react';
 import { arrayOf, string } from 'prop-types';
 
-function List(props) {
-  const { items } = props;
-  const listItems = items.map(item => (
-    <li>
+const List = ({ items }) => {
+  /* eslint-disable react/no-array-index-key */
+  const listItems = items.map((item, index) => (
+    <li key={index}>
       {item}
     </li>));
 
-  return (
-    <ul>{listItems}</ul>
-  );
-}
+  return <ul>{listItems}</ul>;
+};
 
 List.propTypes = {
   items: arrayOf(string).isRequired,
 };
 
-export default List;
+export { List as default };

@@ -1,16 +1,25 @@
 import React, { Fragment } from 'react';
+import { arrayOf, shape, string, number } from 'prop-types';
 import List from '../list/List';
 
-function Education() {
+const Education = ({ datas }) => {
+  const divs = datas.map(data => (
+    <div key={data.id}>
+      {data.description}
+      <List items={data.items} />
+    </div>
+  ));
+
   return (
     <Fragment>
       <h3>Education</h3>
-      <div>
-        B.S. in Mongolian University of Science and Technology, Ulaanbaatar (2013 - 2018)
-        <List items={['Major in Computer Science']} />
-      </div>
+      {divs}
     </Fragment>
   );
-}
+};
 
-export default Education;
+Education.propTypes = {
+  datas: arrayOf(shape({ id: number, description: string, items: arrayOf(string) })).isRequired,
+};
+
+export { Education as default };

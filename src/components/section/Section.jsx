@@ -1,16 +1,14 @@
 import React from 'react';
 import { node } from 'prop-types';
 
-function Section(props) {
-  return (
-    <section>
-      {props.children}
-    </section>
-  );
-}
+const Section = ({ children }) => (
+  <section>
+    {children}
+  </section>
+);
 
 Section.propTypes = {
   children: node.isRequired,
 };
 
-export default Section;
+export { Section as default };

@@ -1,23 +1,21 @@
 import React from 'react';
 
-function Footer() {
-  return (
-    <footer style={{ 'text-align': 'center', 'font-size': '1.7rem', 'margin-bottom': '3rem' }}>
-      Crafted with
-      <span style={{ color: '#fa1414' }}> ♥ </span>
-      by&nbsp;
-      <a
-        href="http://github.com/enkhee-Osiris"
-        style={{
-          'text-decoration': 'none',
-          color: '#fa1414',
-        }}
-      >
-        Osiris
-      </a>
-      .
-    </footer>
-  );
-}
+const Footer = () => (
+  <footer style={{ textAlign: 'center', fontSize: '1.7rem', marginBottom: '3rem' }}>
+    Crafted with
+    <span style={{ color: '#fa1414' }}> ♥ </span>
+    by&nbsp;
+    <a
+      href="http://github.com/enkhee-Osiris"
+      style={{
+        textDecoration: 'none',
+        color: '#fa1414',
+      }}
+    >
+      Osiris
+    </a>
+    .
+  </footer>
+);
 
-export default Footer;
+export { Footer as default };
