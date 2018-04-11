@@ -4,9 +4,12 @@
   "private": true,
   "homepage": "https://enkhee-Osiris.github.io/curriculum_vitae/",
   "dependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "prop-types": "^15.6.1",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
+    "react-test-renderer": "^16.3.1",
     "react-vertical-timeline-component": "^2.0.6"
   },
   "devDependencies": {
