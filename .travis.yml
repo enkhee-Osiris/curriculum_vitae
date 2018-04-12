@@ -9,8 +9,15 @@ branches:
 
 install:
   - npm install
+before_script:
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
 script:
   - npm test
+after_srcipt:
+  - npm run test:unit -- --coverage
+  - ./cc-test-reporter upload-coverage -i ./coverage/lcov.info
 before_deploy:
   - npm run build
 deploy:
