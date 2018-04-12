@@ -7,6 +7,10 @@ branches:
     - master
     - develop
 
+install:
+  - npm install
+script:
+  -npm test
 before_deploy:
   - npm run build
 deploy:
