@@ -26,10 +26,17 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test:lint:js": "eslint --ext=js --ext=jsx .",
-    "test:unit": "react-scripts test --env=jsdom --updateSnapshot",
+    "test:unit": "react-scripts test --env=jsdom --updateSnapshot --coverage",
     "test": "run-s test:**",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!src/index.js",
+      "!src/registerServiceWorker.js"
+    ]
   }
 }
