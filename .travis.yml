@@ -10,7 +10,7 @@ branches:
 install:
   - npm install
 script:
-  -npm test
+  - npm test
 before_deploy:
   - npm run build
 deploy:
