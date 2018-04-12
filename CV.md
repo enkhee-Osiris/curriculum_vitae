@@ -35,31 +35,31 @@ Experience
 
 **Full-stack Web Developer @eys-style** (Apr 2017 - present, Ulaanbaatar)
 
-  * Built CI/CD in jenkins
-  * Imporoved TDD for Ruby on Rails app
-  * Developed custom slack bot
-  * Improved development tool using Google Script
+* Built CI/CD in jenkins
+* Imporoved TDD for Ruby on Rails app
+* Developed custom slack bot
+* Improved development tool using Google Script
 
 **Full-stack Web Developer @eys-style** (Jan 2017 - Apr 2017, Tokyo)
 
-  * Full-stack web development with Ruby on Rails
-  * Development in SpringMVC with Kotlin
+* Full-stack web development with Ruby on Rails
+* Development in SpringMVC with Kotlin
 
 **Freelancing** (June 2015 - Jan 2016, Ulaanbaatar)
 
-  * Developed Web applications with NodeJs
+* Developed Web applications with NodeJs
 
 **Web Developer, @zev-studio** (Jan 2015 - May 2015, Ulaanbaatar)
 
-  * Developed web pages, both frontend and backend
-  * Developed static web pages
+* Developed web pages, both frontend and backend
+* Developed static web pages
 
 Education
 -----------
 
 B.S. in Mongolian University of Science and Technology, Ulaanbaatar (2013 - 2018)
 
-  * Major in Computer Science
+* Major in Computer Science
 
 Hobbies
 --------

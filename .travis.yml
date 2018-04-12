@@ -15,9 +15,6 @@ before_script:
   - ./cc-test-reporter before-build
 script:
   - npm test
-after_srcipt:
-  - npm run test:unit -- --coverage
-  - ./cc-test-reporter upload-coverage -i ./coverage/lcov.info
 before_deploy:
   - npm run build
 deploy:
@@ -28,3 +25,6 @@ deploy:
   keep-history: true
   on:
     branch: master
+after_srcipt:
+  - npm run test:unit -- --coverage
+  - ./cc-test-reporter upload-coverage -i ./coverage/lcov.info
