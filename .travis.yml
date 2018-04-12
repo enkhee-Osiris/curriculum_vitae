@@ -9,15 +9,20 @@ branches:
 
 install:
   - npm install
+
 before_script:
-  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
-  - chmod +x ./cc-test-reporter
-  - ./cc-test-reporter before-build
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > cc-test-reporter
+  - chmod +x cc-test-reporter
+  - sudo mv cc-test-reporter /usr/local/bin
+  - cc-test-reporter before-build
+
 script:
   - npm test
-  - ./cc-test-reporter upload-coverage -i ./coverage/lcov.info
+  - cc-test-reporter after-build
+
 before_deploy:
   - npm run build
+
 deploy:
   provider: pages
   local-dir: build
