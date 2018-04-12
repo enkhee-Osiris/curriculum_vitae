@@ -4,25 +4,22 @@
 
 # Curriculum Vitae
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-Live: [Here](https://enkhee-osiris.github.io/curriculum_vitae)
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).  
+Live: [Here](https://enkhee-osiris.github.io/curriculum_vitae)  
 MarkDown: [Here](https://github.com/enkhee-Osiris/curriculum_vitae/blob/master/CV.md)
 
-<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
-**Table of Contents**
+## Table of Contents
 
 - [Curriculum Vitae](#curriculum-vitae)
-    - [Folder Structure](#folder-structure)
-    - [Available Scripts](#available-scripts)
-        - [`npm start`](#npm-start)
-        - [`npm run test:lint:js`](#npm-run-testlintjs)
-        - [`npm run test:unit`](#npm-run-testunit)
-        - [`npm test`](#npm-test)
-        - [`npm run build`](#npm-run-build)
-        - [`npm run deploy`](#npm-run-deploy)
-    - [Cloning](#cloning)
-
-<!-- markdown-toc end -->
+  - [Folder Structure](#folder-structure)
+  - [Available Scripts](#available-scripts)
+    - [`npm start`](#npm-start)
+    - [`npm run test:lint:js`](#npm-run-testlintjs)
+    - [`npm run test:unit`](#npm-run-testunit)
+    - [`npm test`](#npm-test)
+    - [`npm run build`](#npm-run-build)
+    - [`npm run deploy`](#npm-run-deploy)
+  - [Cloning](#cloning)
 
 ## Folder Structure
 
@@ -43,54 +40,34 @@ MarkDown: [Here](https://github.com/enkhee-Osiris/curriculum_vitae/blob/master/C
     │   ├── education
     │   │   ├── Education.jsx
     │   │   ├── Education.test.jsx
-    │   │   └── __snapshots__
-    │   │       └── Education.test.jsx.snap
     │   ├── experience
     │   │   ├── Experience.jsx
     │   │   ├── Experience.test.jsx
-    │   │   └── __snapshots__
-    │   │       └── Experience.test.jsx.snap
     │   ├── footer
     │   │   ├── Footer.jsx
     │   │   ├── Footer.test.jsx
-    │   │   └── __snapshots__
-    │   │       └── Footer.test.jsx.snap
     │   ├── header
     │   │   ├── Header.jsx
     │   │   ├── Header.test.jsx
-    │   │   ├── __snapshots__
-    │   │   │   └── Header.test.jsx.snap
     │   │   └── image.png
     │   ├── hobby
     │   │   ├── Hobby.jsx
     │   │   ├── Hobby.test.jsx
-    │   │   └── __snapshots__
-    │   │       └── Hobby.test.jsx.snap
     │   ├── list
     │   │   ├── List.jsx
     │   │   ├── List.test.jsx
-    │   │   └── __snapshots__
-    │   │       └── List.test.jsx.snap
     │   ├── section
     │   │   ├── Section.jsx
     │   │   ├── Section.test.jsx
-    │   │   └── __snapshots__
-    │   │       └── Section.test.jsx.snap
     │   ├── skill
     │   │   ├── Skill.jsx
     │   │   ├── Skill.test.jsx
-    │   │   └── __snapshots__
-    │   │       └── Skill.test.jsx.snap
     │   ├── summary
     │   │   ├── Summary.jsx
     │   │   ├── Summary.test.jsx
-    │   │   └── __snapshots__
-    │   │       └── Summary.test.jsx.snap
     │   └── table
     │       ├── Table.jsx
     │       ├── Table.test.jsx
-    │       └── __snapshots__
-    │           └── Table.test.jsx.snap
     ├── index.css
     ├── index.js
     ├── registerServiceWorker.js
