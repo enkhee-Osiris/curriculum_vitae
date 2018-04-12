@@ -1,10 +1,9 @@
 plugins:
   eslint:
-   	enabled: true
+    enabled: true
   markdownlint:
     enabled: true
-
 exclude_patterns:
-- "build/"
-- "**/node_modules/"
-- "**/*.test.jsx"
+  - "build/"
+  - "**/node_modules/"
+  - "**/*.test.jsx"
