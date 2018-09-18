@@ -50,6 +50,16 @@ const hobbyItems = [
 const experienceDatas = [
   {
     id: 1,
+    position: 'Web Developer',
+    company: '@nomadays, Ulaanbaatar',
+    items: [
+      'Transfered Angular web app to React',
+      'Learned about the React',
+    ],
+    date: 'July 2018 - present',
+  },
+  {
+    id: 2,
     position: 'Full-Stack Web Developer',
     company: '@eys-style, Ulaanbaatar',
     items: [
@@ -58,10 +68,10 @@ const experienceDatas = [
       'Developed custom slack bot',
       'Improved development tool using Google Script',
     ],
-    date: 'April 2017 - present',
+    date: 'April 2017 - July 2018',
   },
   {
-    id: 2,
+    id: 3,
     position: 'Full-Stack Web Developer',
     company: '@eys-style, Tokyo',
     items: [
@@ -71,7 +81,7 @@ const experienceDatas = [
     date: 'January 2017 - April 2017',
   },
   {
-    id: 3,
+    id: 4,
     position: 'Freelancing',
     company: 'Ulaanbaatar',
     items: [
@@ -80,7 +90,7 @@ const experienceDatas = [
     date: 'June 2015 - January 2016',
   },
   {
-    id: 4,
+    id: 5,
     position: 'Web Developer',
     company: '@zev-studio, Ulaanbaatar',
     items: [
