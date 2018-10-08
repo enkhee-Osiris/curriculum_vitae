@@ -10,16 +10,21 @@
 {{{HEADER}}}
 
 * Experience
-** Web Developer at [[https:nomadays.com][Nomadays]]
+** Web Developer at [[https:nomadays.com][Nomadays]], Ulaanbaatar
 *** July 2018 - October 2018
 - Transfered Angular web app to React
-** Full-Stack Web Developer at [[http:www.eys-style.com][EYS-Style]]
-*** January 2017 - July 2018
-- Full-stack web development with Ruby on Rails
-- Development in SpringMVC with Kotlin
+** Full-Stack Web Developer at [[http:www.eys-style.com][EYS-Style]], Ulaanbaatar
+*** April 2017 - July 2018
 - Imporoved TDD for Ruby on Rails app
 - Developed custom slack bot
 - Improved development tool using Google Script
+** Full-Stack Web Developer at [[http:www.eys-style.com][EYS-Style]], Tokyo
+*** January 2017 - April 2017
+- Full-stack web development with Ruby on Rails
+- Development in SpringMVC with Kotlin
+** Web Developer at zev-studio, Ulaanbaatar
+*** January 2015 - May 2015
+- Developed static web pages
 * Education
 ** Mongolian University of Science and Technology, Ulaanbaatar
 *** Aug 2013 - Jun 2018
