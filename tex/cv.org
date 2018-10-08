@@ -1,0 +1,48 @@
+#+OPTIONS: toc:nil H:10 tex:t
+#+STARTUP: hidestars indent
+#+INCLUDE: personal-info.org
+#+LaTeX_HEADER: \usepackage{cv}
+#+LaTeX_HEADER: \hypersetup{colorlinks=true, urlcolor={url-gray}}
+#+LaTeX_CLASS_OPTIONS: [letterpaper]
+#+LaTeX_HEADER: \usepackage{enumitem}
+#+LaTeX_HEADER: \setlist{leftmargin=0.25in,nosep}
+
+{{{HEADER}}}
+
+* Experience
+** Web Developer at [[https:nomadays.com][Nomadays]]
+*** July 2018 - October 2018
+- Transfered Angular web app to React
+** Full-Stack Web Developer at [[http:www.eys-style.com][EYS-Style]]
+*** January 2017 - July 2018
+- Full-stack web development with Ruby on Rails
+- Development in SpringMVC with Kotlin
+- Imporoved TDD for Ruby on Rails app
+- Developed custom slack bot
+- Improved development tool using Google Script
+* Education
+** Mongolian University of Science and Technology, Ulaanbaatar
+*** Aug 2013 - Jun 2018
+/B.S. Computer Science/, GPA: 3.67/4.0
+* Honors and Awards
+** First place in The [[http:www.haruulzangi.mn][HaruulZangi]] CTF Competition
+*** 2018
+* Skills
+  - Languages :: Ruby, Python, Javascript, SQL, Bash
+  - Frameworks :: Ruby On Rails, React, Bootstrap
+  - Databases :: MySQL, PostgreSQL
+  - Web :: CSS3, SASS, LESS, HTML5, jQuery, ES2015+
+  - Mobile :: Objective-C, Swift, React Native
+  - VCS :: git
+  - OSs :: Linux, Unix
+  - Editors :: Vim, Emacs, VSCode
+  - Build Tools :: Bower, WebPack, Gulp
+  - CI/CD :: Jenkins, Travis
+* Hobbies
+- Security Capture The Flag Competition
+- Collect Vinyl Records
+- Cycling
+- Calligraphy
+- Origami
+- Snowboarding
+- Bowling

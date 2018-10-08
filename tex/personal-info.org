@@ -1,0 +1,11 @@
+#+MACRO: FIRST    Enkh-Erdene
+#+MACRO: LAST     Bolormaa
+#+MACRO: FULL     {{{FIRST}}} {{{LAST}}}
+#+MACRO: BLOG     http://enkhee-Osiris.github.io
+#+MACRO: EMAIL    enkhee.ag@gmail.com
+#+MACRO: PHONE    +976 88788507
+#+MACRO: CODE     https://github.com/enkhee-Osiris
+#+MACRO: ADDRESS1 SBD, 7 khoroo, 6-104
+#+MACRO: ADDRESS2 Ulaanbaatar
+
+#+MACRO: HEADER \resheader{ {{{FULL}}} }{ {{{BLOG}}} }{ {{{EMAIL}}} }{ {{{PHONE}}} }{ {{{ADDRESS1}}} }{ {{{ADDRESS2}}} }
