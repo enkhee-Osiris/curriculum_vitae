@@ -9,14 +9,26 @@ describe('<Section />', () => {
 
   it('renders correctly', () => {
     const children = <div>test</div>;
-    const section = shallow(<Section> {children} </Section>);
+    const section = shallow(
+      <Section>
+        {' '}
+        {children}
+        {' '}
+      </Section>,
+    );
 
     expect(section).toMatchSnapshot();
   });
 
   it('renders children', () => {
     const children = <div>test</div>;
-    const section = shallow(<Section> {children} </Section>);
+    const section = shallow(
+      <Section>
+        {' '}
+        {children}
+        {' '}
+      </Section>,
+    );
 
     expect(section.contains(children)).toEqual(true);
   });

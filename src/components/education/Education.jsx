@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react';
-import { arrayOf, shape, string, number } from 'prop-types';
+import {
+  arrayOf, shape, string, number,
+} from 'prop-types';
 import List from '../list/List';
 
 const Education = ({ datas }) => {

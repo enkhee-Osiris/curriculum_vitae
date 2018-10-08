@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-import { arrayOf, shape, string, number } from 'prop-types';
+import {
+  arrayOf, shape, string, number,
+} from 'prop-types';
 import 'react-vertical-timeline-component/style.min.css';
 import List from '../list/List';
 
