@@ -30,7 +30,7 @@ const skillDatas = {
   Frameworks: 'Ruby On Rails, React, Bootstrap',
   Databases: 'MySQL, PostgreSQL',
   Web: 'CSS3, SASS, LESS, HTML5, jQuery, ES2015+',
-  Mobile: 'Objective-C, Swift',
+  Mobile: 'Objective-C, Swift, React Native',
   VCS: 'git',
   Platforms: 'Linux, Unix',
   Tools: 'Vim, Emacs',
