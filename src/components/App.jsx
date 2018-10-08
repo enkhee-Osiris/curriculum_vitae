@@ -10,6 +10,7 @@ import Summary from './summary/Summary';
 import Skill from './skill/Skill';
 import Experience from './experience/Experience';
 import Education from './education/Education';
+import Award from './award/Award';
 import Hobby from './hobby/Hobby';
 import Footer from './footer/Footer';
 
@@ -25,25 +26,29 @@ const educationDatas = [
 ];
 
 const skillDatas = {
-  Languages: 'Ruby, Python, Javascript, Haskell, SQL, Bash',
-  Databases: 'MySQL, PostgreSQL, Microsoft Access',
-  Web: 'CSS3, HTML5, jQuery, ES2015+, React, Bootstrap',
+  Languages: 'Ruby, Python, Javascript, SQL, Bash',
+  Frameworks: 'Ruby On Rails, React, Bootstrap',
+  Databases: 'MySQL, PostgreSQL',
+  Web: 'CSS3, SASS, LESS, HTML5, jQuery, ES2015+',
   Mobile: 'Objective-C, Swift',
   VCS: 'git',
   Platforms: 'Linux, Unix',
-  'Web Services': 'REST, SOAP',
   Tools: 'Vim, Emacs',
   'Build Tools': 'Bower, WebPack, Gulp',
   'CI/CD': 'Jenkins, Travis',
 };
 
+const awardItems = [
+  '2018: First place in The HaruulZangi CTF Competition',
+];
+
 const hobbyItems = [
-  'Hand lettering',
+  'Security Capture The Flag Competition',
+  'Collect Vinyl Records',
+  'Cycling',
   'Calligraphy',
   'Origami',
   'Snowboarding',
-  'Cycling',
-  'Wall climbing',
   'Bowling',
 ];
 
@@ -56,7 +61,7 @@ const experienceDatas = [
       'Transfered Angular web app to React',
       'Learned about the React',
     ],
-    date: 'July 2018 - present',
+    date: 'July 2018 - October 2018',
   },
   {
     id: 2,
@@ -115,6 +120,9 @@ const App = () => (
     </Section>
     <Section>
       <Education datas={educationDatas} />
+    </Section>
+    <Section>
+      <Award items={awardItems} />
     </Section>
     <Section>
       <Hobby items={hobbyItems} />
