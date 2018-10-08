@@ -6,8 +6,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).  
 Live: [Here](https://enkhee-osiris.github.io/curriculum_vitae)  
-MarkDown: [Here](https://github.com/enkhee-Osiris/curriculum_vitae/blob/master/CV.md)
-Tex: [Here](https://github.com/enkhee-Osiris/curriculum_vitae/blob/master/tex/cv.tex)
+MarkDown: [Here](https://github.com/enkhee-Osiris/curriculum_vitae/blob/master/CV.md)  
+Tex: [Here](https://github.com/enkhee-Osiris/curriculum_vitae/blob/master/tex/cv.tex)  
 PDF: [Here](https://github.com/enkhee-Osiris/curriculum_vitae/blob/master/tex/cv.pdf)
 
 ## Table of Contents
