@@ -20,7 +20,7 @@ describe('<Award />', () => {
 
   it('renders h3', () => {
     const hobby = shallow(<Award {...props} />);
-    const title = <h3>Hobbies</h3>;
+    const title = <h3>Honors and Awards</h3>;
 
     expect(hobby.contains(title)).toEqual(true);
   });
