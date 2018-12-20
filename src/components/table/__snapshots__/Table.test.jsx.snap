@@ -2,19 +2,19 @@
 
 exports[`<Table /> renders correctly 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Table
     datas={
-        Object {
-            "key": "value",
-          }
+      Object {
+        "key": "value",
+      }
     }
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -25,20 +25,20 @@ ShallowWrapper {
     "props": Object {
       "children": <tbody>
         <tr>
-                <td
-                        style={
-                                Object {
-                                        "fontWeight": 500,
-                                      }
-                        }
-                >
-                        key
-                </td>
-                <td>
-                        value
-                </td>
+          <td
+            style={
+              Object {
+                "fontWeight": 500,
+              }
+            }
+          >
+            key
+          </td>
+          <td>
+            value
+          </td>
         </tr>
-</tbody>,
+      </tbody>,
       "className": "u-full-width",
     },
     "ref": null,
@@ -50,18 +50,18 @@ ShallowWrapper {
         "children": Array [
           <tr>
             <td
-                        style={
-                                    Object {
-                                                "fontWeight": 500,
-                                              }
-                        }
+              style={
+                Object {
+                  "fontWeight": 500,
+                }
+              }
             >
-                        key
+              key
             </td>
             <td>
-                        value
+              value
             </td>
-</tr>,
+          </tr>,
         ],
       },
       "ref": null,
@@ -74,16 +74,16 @@ ShallowWrapper {
             "children": Array [
               <td
                 style={
-                                Object {
-                                                "fontWeight": 500,
-                                              }
+                  Object {
+                    "fontWeight": 500,
+                  }
                 }
->
+              >
                 key
-</td>,
+              </td>,
               <td>
                 value
-</td>,
+              </td>,
             ],
           },
           "ref": null,
@@ -129,20 +129,20 @@ ShallowWrapper {
       "props": Object {
         "children": <tbody>
           <tr>
-                    <td
-                              style={
-                                        Object {
-                                                  "fontWeight": 500,
-                                                }
-                              }
-                    >
-                              key
-                    </td>
-                    <td>
-                              value
-                    </td>
+            <td
+              style={
+                Object {
+                  "fontWeight": 500,
+                }
+              }
+            >
+              key
+            </td>
+            <td>
+              value
+            </td>
           </tr>
-</tbody>,
+        </tbody>,
         "className": "u-full-width",
       },
       "ref": null,
@@ -154,18 +154,18 @@ ShallowWrapper {
           "children": Array [
             <tr>
               <td
-                            style={
-                                          Object {
-                                                        "fontWeight": 500,
-                                                      }
-                            }
+                style={
+                  Object {
+                    "fontWeight": 500,
+                  }
+                }
               >
-                            key
+                key
               </td>
               <td>
-                            value
+                value
               </td>
-</tr>,
+            </tr>,
           ],
         },
         "ref": null,
@@ -178,16 +178,16 @@ ShallowWrapper {
               "children": Array [
                 <td
                   style={
-                                    Object {
-                                                      "fontWeight": 500,
-                                                    }
+                    Object {
+                      "fontWeight": 500,
+                    }
                   }
->
+                >
                   key
-</td>,
+                </td>,
                 <td>
                   value
-</td>,
+                </td>,
               ],
             },
             "ref": null,
@@ -230,6 +230,16 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },

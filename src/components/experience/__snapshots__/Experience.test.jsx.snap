@@ -2,27 +2,27 @@
 
 exports[`<Experience /> renders correctly 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Experience
     datas={
-        Array [
-            Object {
-              "company": "test comp",
-              "date": "April 2017 - present",
-              "id": 1,
-              "items": Array [
-                "test item",
-              ],
-              "position": "test position",
-            },
-          ]
+      Array [
+        Object {
+          "company": "test comp",
+          "date": "April 2017 - present",
+          "id": 1,
+          "items": Array [
+            "test item",
+          ],
+          "position": "test position",
+        },
+      ]
     }
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -34,39 +34,49 @@ ShallowWrapper {
       "children": Array [
         <h3>
           Experience
-</h3>,
+        </h3>,
         <VerticalTimeline
           animate={false}
           className=""
->
+          layout="2-columns"
+        >
           <VerticalTimelineElement
-                    className="vertical-timeline-element--work"
-                    date="April 2017 - present"
-                    icon={null}
-                    iconStyle={null}
-                    id=""
-                    position=""
-                    style={null}
+            className="vertical-timeline-element--work"
+            date="April 2017 - present"
+            icon={null}
+            iconOnClick={null}
+            iconStyle={null}
+            id=""
+            position=""
+            style={null}
+            visibilitySensorProps={
+              Object {
+                "offset": Object {
+                  "bottom": 80,
+                },
+                "partialVisibility": true,
+              }
+            }
           >
-                    <h4
-                              className="vertical-timeline-element-title"
-                    >
-                              test position
-                    </h4>
-                    <h5
-                              className="vertical-timeline-element-subtitle"
-                    >
-                              test comp
-                    </h5>
-                    <List
-                              items={
-                                        Array [
-                                                  "test item",
-                                                ]
-                              }
-                    />
+            <h4
+              className="vertical-timeline-element-title"
+            >
+              test position
+            </h4>
+            <h5
+              className="vertical-timeline-element-subtitle"
+            >
+              test comp
+            </h5>
+            <List
+              items={
+                Array [
+                  "test item",
+                ]
+              }
+            />
           </VerticalTimelineElement>
-</VerticalTimeline>,
+        </VerticalTimeline>,
       ],
     },
     "ref": null,
@@ -85,7 +95,7 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
+        "nodeType": "function",
         "props": Object {
           "animate": false,
           "children": Array [
@@ -93,31 +103,41 @@ ShallowWrapper {
               className="vertical-timeline-element--work"
               date="April 2017 - present"
               icon={null}
+              iconOnClick={null}
               iconStyle={null}
               id=""
               position=""
               style={null}
->
+              visibilitySensorProps={
+                Object {
+                  "offset": Object {
+                    "bottom": 80,
+                  },
+                  "partialVisibility": true,
+                }
+              }
+            >
               <h4
-                            className="vertical-timeline-element-title"
+                className="vertical-timeline-element-title"
               >
-                            test position
+                test position
               </h4>
               <h5
-                            className="vertical-timeline-element-subtitle"
+                className="vertical-timeline-element-subtitle"
               >
-                            test comp
+                test comp
               </h5>
               <List
-                            items={
-                                          Array [
-                                                        "test item",
-                                                      ]
-                            }
+                items={
+                  Array [
+                    "test item",
+                  ]
+                }
               />
-</VerticalTimelineElement>,
+            </VerticalTimelineElement>,
           ],
           "className": "",
+          "layout": "2-columns",
         },
         "ref": null,
         "rendered": Array [
@@ -129,29 +149,36 @@ ShallowWrapper {
               "children": Array [
                 <h4
                   className="vertical-timeline-element-title"
->
+                >
                   test position
-</h4>,
+                </h4>,
                 <h5
                   className="vertical-timeline-element-subtitle"
->
+                >
                   test comp
-</h5>,
+                </h5>,
                 <List
                   items={
-                                    Array [
-                                                      "test item",
-                                                    ]
+                    Array [
+                      "test item",
+                    ]
                   }
-/>,
+                />,
               ],
               "className": "vertical-timeline-element--work",
               "date": "April 2017 - present",
               "icon": null,
+              "iconOnClick": null,
               "iconStyle": null,
               "id": "",
               "position": "",
               "style": null,
+              "visibilitySensorProps": Object {
+                "offset": Object {
+                  "bottom": 80,
+                },
+                "partialVisibility": true,
+              },
             },
             "ref": null,
             "rendered": Array [
@@ -210,39 +237,49 @@ ShallowWrapper {
         "children": Array [
           <h3>
             Experience
-</h3>,
+          </h3>,
           <VerticalTimeline
             animate={false}
             className=""
->
+            layout="2-columns"
+          >
             <VerticalTimelineElement
-                        className="vertical-timeline-element--work"
-                        date="April 2017 - present"
-                        icon={null}
-                        iconStyle={null}
-                        id=""
-                        position=""
-                        style={null}
+              className="vertical-timeline-element--work"
+              date="April 2017 - present"
+              icon={null}
+              iconOnClick={null}
+              iconStyle={null}
+              id=""
+              position=""
+              style={null}
+              visibilitySensorProps={
+                Object {
+                  "offset": Object {
+                    "bottom": 80,
+                  },
+                  "partialVisibility": true,
+                }
+              }
             >
-                        <h4
-                                    className="vertical-timeline-element-title"
-                        >
-                                    test position
-                        </h4>
-                        <h5
-                                    className="vertical-timeline-element-subtitle"
-                        >
-                                    test comp
-                        </h5>
-                        <List
-                                    items={
-                                                Array [
-                                                            "test item",
-                                                          ]
-                                    }
-                        />
+              <h4
+                className="vertical-timeline-element-title"
+              >
+                test position
+              </h4>
+              <h5
+                className="vertical-timeline-element-subtitle"
+              >
+                test comp
+              </h5>
+              <List
+                items={
+                  Array [
+                    "test item",
+                  ]
+                }
+              />
             </VerticalTimelineElement>
-</VerticalTimeline>,
+          </VerticalTimeline>,
         ],
       },
       "ref": null,
@@ -261,7 +298,7 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "animate": false,
             "children": Array [
@@ -269,31 +306,41 @@ ShallowWrapper {
                 className="vertical-timeline-element--work"
                 date="April 2017 - present"
                 icon={null}
+                iconOnClick={null}
                 iconStyle={null}
                 id=""
                 position=""
                 style={null}
->
+                visibilitySensorProps={
+                  Object {
+                    "offset": Object {
+                      "bottom": 80,
+                    },
+                    "partialVisibility": true,
+                  }
+                }
+              >
                 <h4
-                                className="vertical-timeline-element-title"
+                  className="vertical-timeline-element-title"
                 >
-                                test position
+                  test position
                 </h4>
                 <h5
-                                className="vertical-timeline-element-subtitle"
+                  className="vertical-timeline-element-subtitle"
                 >
-                                test comp
+                  test comp
                 </h5>
                 <List
-                                items={
-                                                Array [
-                                                                "test item",
-                                                              ]
-                                }
+                  items={
+                    Array [
+                      "test item",
+                    ]
+                  }
                 />
-</VerticalTimelineElement>,
+              </VerticalTimelineElement>,
             ],
             "className": "",
+            "layout": "2-columns",
           },
           "ref": null,
           "rendered": Array [
@@ -305,29 +352,36 @@ ShallowWrapper {
                 "children": Array [
                   <h4
                     className="vertical-timeline-element-title"
->
+                  >
                     test position
-</h4>,
+                  </h4>,
                   <h5
                     className="vertical-timeline-element-subtitle"
->
+                  >
                     test comp
-</h5>,
+                  </h5>,
                   <List
                     items={
-                                        Array [
-                                                            "test item",
-                                                          ]
+                      Array [
+                        "test item",
+                      ]
                     }
-/>,
+                  />,
                 ],
                 "className": "vertical-timeline-element--work",
                 "date": "April 2017 - present",
                 "icon": null,
+                "iconOnClick": null,
                 "iconStyle": null,
                 "id": "",
                 "position": "",
                 "style": null,
+                "visibilitySensorProps": Object {
+                  "offset": Object {
+                    "bottom": 80,
+                  },
+                  "partialVisibility": true,
+                },
               },
               "ref": null,
               "rendered": Array [
@@ -382,6 +436,16 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },

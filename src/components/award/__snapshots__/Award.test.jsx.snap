@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Hobby /> renders correctly 1`] = `
+exports[`<Award /> renders correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Hobby
+  Symbol(enzyme.__unrendered__): <Award
     items={
       Array [
         "test",
@@ -25,7 +25,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <h3>
-          Hobbies
+          Honors and Awards
         </h3>,
         <List
           items={
@@ -43,10 +43,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Hobbies",
+          "children": "Honors and Awards",
         },
         "ref": null,
-        "rendered": "Hobbies",
+        "rendered": "Honors and Awards",
         "type": "h3",
       },
       Object {
@@ -73,7 +73,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <h3>
-            Hobbies
+            Honors and Awards
           </h3>,
           <List
             items={
@@ -91,10 +91,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Hobbies",
+            "children": "Honors and Awards",
           },
           "ref": null,
-          "rendered": "Hobbies",
+          "rendered": "Honors and Awards",
           "type": "h3",
         },
         Object {

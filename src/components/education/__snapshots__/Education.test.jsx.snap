@@ -2,25 +2,25 @@
 
 exports[`<Education /> renders correctly 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Education
     datas={
-        Array [
-            Object {
-              "description": "B.S. in Mongolian University of Science and Technology, Ulaanbaatar (2013 - 2018)",
-              "id": 1,
-              "items": Array [
-                "Major in Computer Science",
-              ],
-            },
-          ]
+      Array [
+        Object {
+          "description": "B.S. in Mongolian University of Science and Technology, Ulaanbaatar (2013 - 2018)",
+          "id": 1,
+          "items": Array [
+            "Major in Computer Science",
+          ],
+        },
+      ]
     }
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -32,18 +32,18 @@ ShallowWrapper {
       "children": Array [
         <h3>
           Education
-</h3>,
+        </h3>,
         Array [
           <div>
             B.S. in Mongolian University of Science and Technology, Ulaanbaatar (2013 - 2018)
             <List
-                        items={
-                                    Array [
-                                                "Major in Computer Science",
-                                              ]
-                        }
+              items={
+                Array [
+                  "Major in Computer Science",
+                ]
+              }
             />
-</div>,
+          </div>,
         ],
       ],
     },
@@ -69,11 +69,11 @@ ShallowWrapper {
             "B.S. in Mongolian University of Science and Technology, Ulaanbaatar (2013 - 2018)",
             <List
               items={
-                            Array [
-                                          "Major in Computer Science",
-                                        ]
+                Array [
+                  "Major in Computer Science",
+                ]
               }
-/>,
+            />,
           ],
         },
         "ref": null,
@@ -107,18 +107,18 @@ ShallowWrapper {
         "children": Array [
           <h3>
             Education
-</h3>,
+          </h3>,
           Array [
             <div>
               B.S. in Mongolian University of Science and Technology, Ulaanbaatar (2013 - 2018)
               <List
-                            items={
-                                          Array [
-                                                        "Major in Computer Science",
-                                                      ]
-                            }
+                items={
+                  Array [
+                    "Major in Computer Science",
+                  ]
+                }
               />
-</div>,
+            </div>,
           ],
         ],
       },
@@ -144,11 +144,11 @@ ShallowWrapper {
               "B.S. in Mongolian University of Science and Technology, Ulaanbaatar (2013 - 2018)",
               <List
                 items={
-                                Array [
-                                                "Major in Computer Science",
-                                              ]
+                  Array [
+                    "Major in Computer Science",
+                  ]
                 }
-/>,
+              />,
             ],
           },
           "ref": null,
@@ -178,6 +178,16 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },

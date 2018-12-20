@@ -2,19 +2,19 @@
 
 exports[`<Section /> renders correctly 1`] = `
 ShallowWrapper {
-  "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Section>
      
     <div>
-        test
+      test
     </div>
      
-</Section>,
+  </Section>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -27,7 +27,7 @@ ShallowWrapper {
         " ",
         <div>
           test
-</div>,
+        </div>,
         " ",
       ],
     },
@@ -59,7 +59,7 @@ ShallowWrapper {
           " ",
           <div>
             test
-</div>,
+          </div>,
           " ",
         ],
       },
@@ -86,6 +86,16 @@ ShallowWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
   },
