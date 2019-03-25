@@ -9,6 +9,7 @@ Summary
 --------
 
 * Full-Stack developer with 3 years of experience.
+* Mobile App developer with react-native experience.
 * Experience in Software Development including Analysis,
 Design, Development and Testing.
 * Experience in Functional and Object Orieted Programming.
@@ -17,23 +18,33 @@ Design, Development and Testing.
 Skills
 -------
 
-| Type             | Skills                                         |
-|------------------|------------------------------------------------|
-| **Languages**    | Ruby, Python, Javascript, Haskell, SQL, Bash   |
-| **Databases**    | MySQL, PostgreSQL, Microsoft Access            |
-| **Web**          | CSS3, HTML5, jQuery, ES2015+, React, Bootstrap |
-| **Mobile**       | Objective-c, Swift                             |
-| **VCS**          | git                                            |
-| **Platforms**    | Linux, Unix                                    |
-| **Web Services** | REST, SOAP                                     |
-| **Tools**        | Vim, Emacs                                     |
-| **Build Tools**  | Bower, WebPack, Gulp                           |
-| **CI/CD**        | Jenkins, Travis                                |
+| Type             | Skills                                               |
+|------------------|------------------------------------------------------|
+| **Languages**    | Ruby, Python, JavaScript, Haskell, SQL, Bash         |
+| **Frameworks**   | React, Bootstrap, Ruby on Rails                      |
+| **Databases**    | MySQL, PostgreSQL                                    |
+| **Web**          | CSS3, SASS, LESS, HTML5, jQuery, ES2015+             |
+| **Mobile**       | Objective-C, Swift, React Native                     |
+| **VCS**          | git                                                  |
+| **Platforms**    | Linux, Unix                                          |
+| **Web Services** | REST, SOAP                                           |
+| **Editors**      | Vim, Emacs, VSCode                                   |
+| **Build Tools**  | Bower, WebPack, Gulp                                 |
+| **CI/CD**        | Jenkins, Travis                                      |
 
 Experience
 ------------
 
-**Full-stack Web Developer @eys-style** (Apr 2017 - present, Ulaanbaatar)
+**Mobile App Developer @andsystems** (Oct 2018 - present, Ulaanbaatar)
+
+* Working on LendMN app
+
+**Web Developer @nomadays** (Jul 2018 - Oct 2018, Ulaanbaatar)
+
+* Transfered Angular web app to React
+* Learned about the React
+
+**Full-stack Web Developer @eys-style** (Apr 2017 - Jul 2018)
 
 * Built CI/CD in jenkins
 * Imporoved TDD for Ruby on Rails app
@@ -66,8 +77,10 @@ Hobbies
 
 * Hand lettering
 * Calligraphy
+* Security Capture The Flag Competition
+* Film Photography
+* Collect Vinyl Records
+* Cycling
 * Origami
 * Snowboarding
-* Cycling
-* Wall climbing
 * Bowling

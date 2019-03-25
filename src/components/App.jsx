@@ -17,6 +17,7 @@ import Footer from './footer/Footer';
 // Variables
 const summaryItems = [
   'Full-Stack developer with 3 years of experience.',
+  'Mobile App developer with react-native experience.',
   'Experience in Software Development including Analysis, Design, Development and Testing.',
   'Experience in Functional and Object Orieted Programming.',
   'Experience with CI/CD.',
@@ -26,14 +27,14 @@ const educationDatas = [
 ];
 
 const skillDatas = {
-  Languages: 'Ruby, Python, Javascript, SQL, Bash',
+  Languages: 'Ruby, Python, JavaScript, Haskell, SQL, Bash',
   Frameworks: 'Ruby On Rails, React, Bootstrap',
   Databases: 'MySQL, PostgreSQL',
   Web: 'CSS3, SASS, LESS, HTML5, jQuery, ES2015+',
   Mobile: 'Objective-C, Swift, React Native',
   VCS: 'git',
   Platforms: 'Linux, Unix',
-  Tools: 'Vim, Emacs',
+  Editors: 'Vim, Emacs, VSCode',
   'Build Tools': 'Bower, WebPack, Gulp',
   'CI/CD': 'Jenkins, Travis',
 };
@@ -43,10 +44,12 @@ const awardItems = [
 ];
 
 const hobbyItems = [
+  'Hand lettering',
+  'Calligraphy',
   'Security Capture The Flag Competition',
+  'Film Photography',
   'Collect Vinyl Records',
   'Cycling',
-  'Calligraphy',
   'Origami',
   'Snowboarding',
   'Bowling',
@@ -55,6 +58,15 @@ const hobbyItems = [
 const experienceDatas = [
   {
     id: 1,
+    position: 'Mobile App Developer',
+    company: '@ANDSystems, Ulaanbaatar',
+    items: [
+      'Working on LendMN app',
+    ],
+    date: 'October 2018 - present',
+  },
+  {
+    id: 2,
     position: 'Web Developer',
     company: '@nomadays, Ulaanbaatar',
     items: [
@@ -64,7 +76,7 @@ const experienceDatas = [
     date: 'July 2018 - October 2018',
   },
   {
-    id: 2,
+    id: 3,
     position: 'Full-Stack Web Developer',
     company: '@eys-style, Ulaanbaatar',
     items: [
@@ -76,7 +88,7 @@ const experienceDatas = [
     date: 'April 2017 - July 2018',
   },
   {
-    id: 3,
+    id: 4,
     position: 'Full-Stack Web Developer',
     company: '@eys-style, Tokyo',
     items: [
@@ -86,7 +98,7 @@ const experienceDatas = [
     date: 'January 2017 - April 2017',
   },
   {
-    id: 4,
+    id: 5,
     position: 'Freelancing',
     company: 'Ulaanbaatar',
     items: [
@@ -95,7 +107,7 @@ const experienceDatas = [
     date: 'June 2015 - January 2016',
   },
   {
-    id: 5,
+    id: 6,
     position: 'Web Developer',
     company: '@zev-studio, Ulaanbaatar',
     items: [
