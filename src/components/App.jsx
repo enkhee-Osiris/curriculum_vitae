@@ -27,15 +27,14 @@ const educationDatas = [
 ];
 
 const skillDatas = {
-  Languages: 'Ruby, Python, JavaScript, Haskell, SQL, Bash',
-  Frameworks: 'Ruby On Rails, React, Bootstrap',
+  Languages: 'Ruby, Python, JavaScript, Objective-C, Swift, SQL, Bash',
+  Frameworks: 'Ruby On Rails, React Native',
   Databases: 'MySQL, PostgreSQL',
-  Web: 'CSS3, SASS, LESS, HTML5, jQuery, ES2015+',
-  Mobile: 'Objective-C, Swift, React Native',
+  Web: 'CSS3, SASS, LESS, HTML5, React, jQuery, ES2015+',
   VCS: 'git',
   Platforms: 'Linux, Unix',
   Editors: 'Vim, Emacs, VSCode',
-  'Build Tools': 'Bower, WebPack, Gulp',
+  'Build Tools': 'WebPack, Gulp',
   'CI/CD': 'Jenkins, Travis',
 };
 
@@ -58,15 +57,26 @@ const hobbyItems = [
 const experienceDatas = [
   {
     id: 1,
+    position: 'Front-end Developer',
+    company: '@ANDSystems, Ulaanbaatar',
+    items: [
+      'Working on React based web apps',
+      'Working on Design System for React and React Native both',
+      'Working on LendMN app',
+    ],
+    date: 'May 2019 - present',
+  },
+  {
+    id: 2,
     position: 'Mobile App Developer',
     company: '@ANDSystems, Ulaanbaatar',
     items: [
       'Working on LendMN app',
     ],
-    date: 'October 2018 - present',
+    date: 'October 2018 - May 2019',
   },
   {
-    id: 2,
+    id: 3,
     position: 'Web Developer',
     company: '@nomadays, Ulaanbaatar',
     items: [
@@ -76,7 +86,7 @@ const experienceDatas = [
     date: 'July 2018 - October 2018',
   },
   {
-    id: 3,
+    id: 4,
     position: 'Full-Stack Web Developer',
     company: '@eys-style, Ulaanbaatar',
     items: [
@@ -88,7 +98,7 @@ const experienceDatas = [
     date: 'April 2017 - July 2018',
   },
   {
-    id: 4,
+    id: 5,
     position: 'Full-Stack Web Developer',
     company: '@eys-style, Tokyo',
     items: [
@@ -98,7 +108,7 @@ const experienceDatas = [
     date: 'January 2017 - April 2017',
   },
   {
-    id: 5,
+    id: 6,
     position: 'Freelancing',
     company: 'Ulaanbaatar',
     items: [
@@ -107,7 +117,7 @@ const experienceDatas = [
     date: 'June 2015 - January 2016',
   },
   {
-    id: 6,
+    id: 7,
     position: 'Web Developer',
     company: '@zev-studio, Ulaanbaatar',
     items: [
