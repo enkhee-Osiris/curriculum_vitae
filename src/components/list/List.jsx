@@ -6,7 +6,8 @@ const List = ({ items }) => {
   const listItems = items.map((item, index) => (
     <li key={index}>
       {item}
-    </li>));
+    </li>
+  ));
 
   return <ul>{listItems}</ul>;
 };

@@ -6,7 +6,8 @@ const Table = ({ datas }) => {
     <tr key={key}>
       <td style={{ fontWeight: 500 }}>{key}</td>
       <td>{datas[key]}</td>
-    </tr>));
+    </tr>
+  ));
 
   return (
     <table className="u-full-width">
