@@ -10,9 +10,14 @@
 {{{HEADER}}}
 
 * Experience
-** Mobile App Developer at [[https://andsystems.net][ANDSystems]], Ulaanbaatar
-*** October 2018 - present
+** Front-end Developer At [[https://andsystems.net][ANDSystems]], Ulaanbaatar
+*** May 2019 - Present
+- Working on React based web apps
+- Working on Design System for React and React Native both
 - Working on LendMN app
+** Mobile App Developer at [[https://andsystems.net][ANDSystems]], Ulaanbaatar
+*** October 2018 - May 2019
+- Worked on LendMN app
 ** Web Developer at [[https:nomadays.com][Nomadays]], Ulaanbaatar
 *** July 2018 - October 2018
 - Transfered Angular web app to React
@@ -36,16 +41,15 @@
 ** First place in The [[http:www.haruulzangi.mn][HaruulZangi]] CTF Competition
 *** 2018
 * Skills
-  - Languages :: Ruby, Python, JavaScript, Haskell, SQL, Bash
-  - Frameworks :: React, Bootstrap, Ruby On Rails
+  - Languages :: Ruby, Python, JavaScript, Objective-C, Swift, SQL, Bash
+  - Frameworks :: Ruby On Rails, React Native
   - Databases :: MySQL, PostgreSQL
-  - Web :: CSS3, SASS, LESS, HTML5, jQuery, ES2015+
-  - Mobile :: Objective-C, Swift, React Native
+  - Web :: CSS3, SASS, LESS, HTML5, React, jQuery, ES2015+
   - VCS :: git
-  - OSs :: Linux, Unix
+  - Platforms :: Linux, Unix
   - Editors :: Vim, Emacs, VSCode
-  - Build Tools :: Bower, WebPack, Gulp
-  - CI/CD :: Jenkins, Travis
+  - Build Tools :: WebPack, Gulp
+  - CI/CD :: Jenkins, Travis,
 * Hobbies
 - Hand lettering
 - Calligraphy
