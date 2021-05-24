@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "commonjs",
+    "module": "es2019",
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "es5",
+      "es6",
+      "es2015",
+      "es7",
+      "es2016",
+      "es2017",
+      "es2018",
+      "es2019",
+      "esnext"
+    ],
+    "jsx": "react",
+    "moduleResolution": "node",
+    "include": ["src/**/*"],
+    "exclude": [
+      ".editorconfig",
+      ".eslintignore",
+      ".eslintrc.js",
+      "prettier.config.js",
+      ".prettierignore",
+      "craco.config.js",
+      "windi.config.js",
+
+      "node_modules",
+      ".cache",
+      "/.cache",
+      "/_cache",
+      "/cache",
+      ".build",
+      "/.build",
+      "/_build",
+      "/build"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/components": ["src/components"],
+      "@/components/*": ["src/components/*"]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+package.json
+
+dist
+dist/*
+
+build
+build/*
+
+*.scss
+
+/node_modules
+/coverage
+/.next/
+/out/
+.cache
+.log
+.vercel

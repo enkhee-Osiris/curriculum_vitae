@@ -1,47 +1,45 @@
 {
   "name": "curriculum_vitae",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
-  "homepage": "https://enkhee-Osiris.github.io/curriculum_vitae/",
   "dependencies": {
-    "enzyme": "^3.10.0",
-    "enzyme-adapter-react-16": "^1.14.0",
-    "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-test-renderer": "^16.8.6",
-    "react-vertical-timeline-component": "^2.3.1"
-  },
-  "devDependencies": {
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.17.3",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.13.0",
-    "gh-pages": "^2.0.1",
-    "npm-run-all": "^4.1.5",
-    "react-scripts": "^3.0.1"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "uuid": "^8.3.2",
+    "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test:lint:js": "eslint --ext=js --ext=jsx .",
-    "test:unit": "react-scripts test --env=jsdom --updateSnapshot --coverage",
-    "test": "run-s test:**",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "eject": "react-scripts eject"
+    "start": "craco start",
+    "build": "GENERATE_SOURCEMAP=false craco build",
+    "test": "exit 0",
+    "format": "yarn format:pretty; yarn lint:fix",
+    "format:pretty": "prettier --config ./prettier.config.js --write \"./src\"",
+    "lint": "eslint -c ./.eslintrc.js --ext .jsx --ext .js \"./src\"",
+    "lint:fix": "yarn lint --fix"
   },
-  "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx}",
-      "!src/index.js",
-      "!src/registerServiceWorker.js"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
     ]
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "devDependencies": {
+    "@craco/craco": "^6.1.2",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.3.0",
+    "windicss-webpack-plugin": "^0.5.3"
+  }
 }
