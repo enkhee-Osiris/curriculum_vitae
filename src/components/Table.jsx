@@ -1,6 +1,6 @@
 function Table({ data }) {
   return (
-    <table className="w-full overflow-x-auto">
+    <table className="w-full min-w-screen-md">
       <tbody className="divide-y divide-black dark:divide-gray-500">
         {Object.keys(data).map((key) => (
           <tr key={`table_${key.toLowerCase()}`}>

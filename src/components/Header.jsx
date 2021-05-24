@@ -14,16 +14,16 @@ function Header() {
   }, []);
 
   return (
-    <header className="flex flex-row justify-between">
-      <div className="space-y-6">
-        <h1 className="text-4xl font-thin dark:font-light dark:text-gray-300">
+    <header className="flex flex-row justify-between -md:flex-col-reverse">
+      <div className="space-y-2 sm:space-y-6">
+        <h1 className="text-2xl sm:text-4xl font-thin dark:font-light dark:text-gray-300">
           Enkh-Erdene Bolormaa
         </h1>
-        <h2 className="text-3xl font-thin dark:font-light dark:text-gray-300">
+        <h2 className="text-xl sm:text-3xl font-thin dark:font-light dark:text-gray-300">
           Front-End developer
         </h2>
       </div>
-      <div className="flex flex-col space-y-4">
+      <div className="flex flex-col md:space-y-4 -md:mb-6 -md:flex-row -md:space-x-4 -md:self-end">
         <div className="flex flex-row space-x-4">
           <a
             target="_parent"

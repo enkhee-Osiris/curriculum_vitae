@@ -106,31 +106,39 @@ function App() {
     <>
       <Header />
 
-      <main className="my-20 space-y-16">
+      <main className="my-10 sm:my-20 space-y-10 sm:space-y-16">
         <section>
-          <h3 className="text-3xl font-thin dark:font-light dark:text-gray-300 mb-6">Summary</h3>
+          <h3 className="text-lg sm:text-3xl font-thin dark:font-light dark:text-gray-300 mb-6">
+            Summary
+          </h3>
           <List items={SUMMERIES} />
         </section>
 
-        <section className="w-full">
-          <h3 className="text-3xl font-thin dark:font-light dark:text-gray-300 mb-6">Skills</h3>
-          <Table data={SKILLS} />
+        <section>
+          <h3 className="text-lg sm:text-3xl font-thin dark:font-light dark:text-gray-300 mb-6">
+            Skills
+          </h3>
+          <div className="overflow-x-scroll">
+            <Table data={SKILLS} />
+          </div>
         </section>
 
         <section>
-          <h3 className="text-3xl font-thin dark:font-light dark:text-gray-300 mb-6">
+          <h3 className="text-lg sm:text-3xl font-thin dark:font-light dark:text-gray-300 mb-6">
             Experiences
           </h3>
           <ExperienceList data={EXPERIENCES} />
         </section>
 
         <section>
-          <h3 className="text-3xl font-thin dark:font-light dark:text-gray-300 mb-6">Educations</h3>
+          <h3 className="text-lg sm:text-3xl font-thin dark:font-light dark:text-gray-300 mb-6">
+            Educations
+          </h3>
           <MultiList data={EDUCATIONS} />
         </section>
 
         <section>
-          <h3 className="text-3xl font-thin dark:font-light dark:text-gray-300 mb-6">
+          <h3 className="text-lg sm:text-3xl font-thin dark:font-light dark:text-gray-300 mb-6">
             Honors and Awards
           </h3>
           <List items={AWARDS} />
