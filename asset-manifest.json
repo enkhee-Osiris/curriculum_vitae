@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/curriculum_vitae/static/css/main.32f489cb.chunk.css",
+    "main.js": "/curriculum_vitae/static/js/main.b8674f26.chunk.js",
+    "runtime-main.js": "/curriculum_vitae/static/js/runtime-main.854a793c.js",
+    "static/js/2.603f56d7.chunk.js": "/curriculum_vitae/static/js/2.603f56d7.chunk.js",
+    "index.html": "/curriculum_vitae/index.html",
+    "static/js/2.603f56d7.chunk.js.LICENSE.txt": "/curriculum_vitae/static/js/2.603f56d7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.854a793c.js",
+    "static/js/2.603f56d7.chunk.js",
+    "static/css/main.32f489cb.chunk.css",
+    "static/js/main.b8674f26.chunk.js"
+  ]
+}
