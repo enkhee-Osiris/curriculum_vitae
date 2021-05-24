@@ -118,7 +118,7 @@ function App() {
           <h3 className="text-lg sm:text-3xl font-thin dark:font-light dark:text-gray-300 mb-6">
             Skills
           </h3>
-          <div className="overflow-x-scroll">
+          <div className="overflow-x-auto">
             <Table data={SKILLS} />
           </div>
         </section>
