@@ -3,10 +3,9 @@
 # Curriculum Vitae
 
 Online: [Here](https://enkhee-osiris.github.io/curriculum_vitae)  
-PDF: [Here](https://github.com/enkhee-Osiris/curriculum_vitae/blob/master/tex/cv.pdf)
+PDF: [Here](https://github.com/enkhee-Osiris/curriculum_vitae/blob/master/tex/enkherdene_bolormaa.pdf)
 
 ## TODO
 
 - [ ] Builder script markdown/org from json/js file
-- [ ] Add github action
 - [ ] Update TeX generated pdf design

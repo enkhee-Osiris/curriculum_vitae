@@ -52,7 +52,7 @@ function Header() {
 
           <a
             target="_parent"
-            href="link"
+            href="https://raw.githubusercontent.com/enkhee-Osiris/curriculum_vitae/master/tex/enkherdene_bolormaa.pdf"
             className="transition-all ease-in-out duration-100 cursor-pointer p-2 focus:ring-3 hover:ring-3 ring-black dark:ring-white">
             <span className="sr-only">Download</span>
 

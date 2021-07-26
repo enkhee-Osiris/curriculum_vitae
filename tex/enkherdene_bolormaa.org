@@ -1,7 +1,7 @@
 #+OPTIONS: toc:nil H:10 tex:t
 #+STARTUP: hidestars indent
 #+INCLUDE: personal-info.org
-#+LaTeX_HEADER: \usepackage{cv}
+#+LaTeX_HEADER: \usepackage{enkherdene_bolormaa}
 #+LaTeX_HEADER: \hypersetup{colorlinks=true, urlcolor={url-gray}}
 #+LaTeX_CLASS_OPTIONS: [letterpaper]
 #+LaTeX_HEADER: \usepackage{enumitem}
