@@ -10,53 +10,45 @@
 {{{HEADER}}}
 
 * Experience
-** Front-end Developer At [[https://andsystems.net][ANDSystems]], Ulaanbaatar
+** Front-end Developer At [[https://andsystems.net][ANDSystems Tech]], Ulaanbaatar
 *** May 2019 - Present
-- Working on React based web apps
-- Working on Design System for React and React Native both
-- Working on LendMN app
+- Developed multiple react-native based mobile apps
+- Built multiple web apps using ReactJS
+- Built admin dashboard using NextJS
+- Created pdf table scraper cli using nodejs
+- Created multiple slack bots
+- Created react-native app builder CI job
 ** Mobile App Developer at [[https://andsystems.net][ANDSystems]], Ulaanbaatar
 *** October 2018 - May 2019
 - Worked on LendMN app
+- Developed multiple react-native libraries
+- Improved code of conduct
 ** Web Developer at [[https:nomadays.com][Nomadays]], Ulaanbaatar
 *** July 2018 - October 2018
-- Transfered Angular web app to React
+- Migrated Angular app to ReactJS
 ** Full-Stack Web Developer at [[http:www.eys-style.com][EYS-Style]], Ulaanbaatar
 *** April 2017 - July 2018
-- Imporoved TDD for Ruby on Rails app
+- Improved tests
 - Developed custom slack bot
 - Improved development tool using Google Script
 ** Full-Stack Web Developer at [[http:www.eys-style.com][EYS-Style]], Tokyo
 *** January 2017 - April 2017
-- Full-stack web development with Ruby on Rails
-- Development in SpringMVC with Kotlin
-** Web Developer at zev-studio, Ulaanbaatar
-*** January 2015 - May 2015
-- Developed static web pages
+- Web development using Ruby on Rails
 * Education
 ** Mongolian University of Science and Technology, Ulaanbaatar
 *** Aug 2013 - Jun 2018
 /B.S. Computer Science/, GPA: 3.67/4.0
 * Honors and Awards
+** First place in The [[https://www.unread.today/c/2191][Water Mine Hackathon]]
+*** 2020
+** First place in The [[http:www.haruulzangi.mn][HaruulZangi]] CTF Competition
+*** 2019
 ** First place in The [[http:www.haruulzangi.mn][HaruulZangi]] CTF Competition
 *** 2018
 * Skills
-  - Languages :: Ruby, Python, JavaScript, Objective-C, Swift, SQL, Bash
-  - Frameworks :: Ruby On Rails, React Native
+  - Languages :: JavaScript, Python
   - Databases :: MySQL, PostgreSQL
-  - Web :: CSS3, SASS, LESS, HTML5, React, jQuery, ES2015+
+  - Libs and Frameworks :: React, React Native, NextJS, ExpressJS, Ruby on Rails
+  - Tools and Platforms :: Docker, Webpack, Babel
   - VCS :: git
-  - Platforms :: Linux, Unix
-  - Editors :: Vim, Emacs, VSCode
-  - Build Tools :: WebPack, Gulp
-  - CI/CD :: Jenkins, Travis,
-* Hobbies
-- Hand lettering
-- Calligraphy
-- Security Capture The Flag Competition
-- Film Photography
-- Collect Vinyl Records
-- Cycling
-- Origami
-- Snowboarding
-- Bowling
+  - Editors :: Vim, Emacs
