@@ -10,12 +10,20 @@
 {{{HEADER}}}
 
 * Experience
+** Front-end Developer At [[https://xyyp.mn][Xyyp Music Group]], Ulaanbaatar
+*** Aug 2021 - Mar 2022
+- Wrote integration tests and unit tests with jest
+- Worked on react-native based mobile app
+- Built web app with NextJS
+- Built admin dashboard with NextJS
+- Created covid.mn with tailwind and NextJS
+- Used MaterialUI, GraphQL, NextJS and tailwind for development
 ** Front-end Developer At [[https://andsystems.net][ANDSystems Tech]], Ulaanbaatar
-*** May 2019 - Present
+*** May 2019 - Jul 2021
 - Developed multiple react-native based mobile apps
-- Built multiple web apps using ReactJS
-- Built admin dashboard using NextJS
-- Created pdf table scraper cli using nodejs
+- Built multiple web apps with ReactJS
+- Built admin dashboard with NextJS
+- Created pdf table scraper cli with nodejs
 - Created multiple slack bots
 - Created react-native app builder CI job
 ** Mobile App Developer at [[https://andsystems.net][ANDSystems]], Ulaanbaatar
@@ -30,10 +38,10 @@
 *** April 2017 - July 2018
 - Improved tests
 - Developed custom slack bot
-- Improved development tool using Google Script
+- Improved development tool with Google Script
 ** Full-Stack Web Developer at [[http:www.eys-style.com][EYS-Style]], Tokyo
 *** January 2017 - April 2017
-- Web development using Ruby on Rails
+- Web development with Ruby on Rails
 * Education
 ** Mongolian University of Science and Technology, Ulaanbaatar
 *** Aug 2013 - Jun 2018
