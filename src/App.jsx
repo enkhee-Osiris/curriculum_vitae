@@ -12,9 +12,9 @@ const SUMMERIES = [
 ];
 
 const SKILLS = {
-  Languages: 'JavaScript, Python',
+  Languages: 'JavaScript, Typescript, Python',
   Databases: 'MySQL, PostgreSQL',
-  'Libs and Frameworks': 'React, React Native, NextJS, ExpressJS, Ruby on Rails',
+  'Libs and Frameworks': 'React, React Native, NextJS, ExpressJS',
   'Tools and Platforms': 'Docker, Webpack, Babel',
   VCS: 'git',
   Editors: 'Vim, Emacs',
@@ -37,18 +37,33 @@ const AWARDS = [
 
 const EXPERIENCES = [
   {
+    id: '5e2a923a-56c1-4f48-b671-163ee0b67e61',
+    position: 'Front-End Developer',
+    company: '@Xyyp Music Group',
+    items: [
+      'Wrote integration tests and unit tests with jest',
+      'Worked on react-native based mobile app',
+      'Built web app with NextJS',
+      'Built admin dashboard with NextJS',
+      'Created covid.mn with tailwind and NextJS',
+      'Used MaterialUI, GraphQL, NextJS and tailwind for development',
+    ],
+    dates: 'Aug 2021 - Mar 2022',
+    location: 'Ulaanbaatar, Mongolia',
+  },
+  {
     id: 'fefd12a6-6590-40b7-b520-0fa5a48edbac',
     position: 'Front-End Developer',
     company: '@ANDSystems Tech',
     items: [
       'Developed multiple react-native based mobile apps',
-      'Built multiple web apps using ReactJS',
-      'Built admin dashboard using NextJS',
-      'Created pdf table scraper cli using nodejs',
+      'Built multiple web apps with ReactJS',
+      'Built admin dashboard with NextJS',
+      'Created pdf table scraper cli with nodejs',
       'Created multiple slack bots',
       'Created react-native app builder CI job',
     ],
-    dates: 'May 2019 - present',
+    dates: 'May 2019 - Jul 2021',
     location: 'Ulaanbaatar, Mongolia',
   },
   {
@@ -78,7 +93,7 @@ const EXPERIENCES = [
     items: [
       'Improved tests',
       'Developed custom slack bot',
-      'Improved development tool using Google Script',
+      'Improved development tool with Google Script',
     ],
     dates: 'April 2017 - July 2018',
     location: 'Ulaanbaatar, Mongolia',

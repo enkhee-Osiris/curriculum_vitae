@@ -7,10 +7,21 @@ module.exports = {
   globals: {},
   rules: {
     'arrow-body-style': 'off',
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+      },
+    ],
     'import/order': 'off',
     'import/prefer-default-export': 'off',
     'import/no-extraneous-dependencies': 'off',
-    'import/no-unresolved': ['error', { ignore: ['^windi.css$', '^@.*$'] }],
+    'import/no-unresolved': ['error', { ignore: ['^windi.css$', '^@/.*'] }],
+
     'no-console': 'off',
     'no-nested-ternary': 'off',
     'no-underscore-dangle': 'off',
@@ -29,5 +40,14 @@ module.exports = {
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+  },
+  settings: {
+    'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
+    'import/resolver': {
+      alias: {
+        map: [['@', './src']],
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
   },
 };
