@@ -1,0 +1,35 @@
+\documentclass[letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, urlcolor={url-gray}}
+\usepackage{enumitem}
+\usepackage{xstring}
+\setlist{leftmargin=0.25in,nosep}
+\author{Enkh-Erdene Bolormaa}
+\date{\today}
+
+\newcommand{\resheader}[6]{%
+  \StrRemoveSpaces{#4}[\cleanphone]%
+  \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}cr}%
+    \href{mailto:#3}{#3} & \textbf{\LARGE #1} & #5\\
+    \href{tel:\cleanphone}{#4} & \url{#2} & #6\\
+  \end{tabular*}%
+  \vspace{0.1in}%
+}
+
+
+\begin{document}
+
+\resheader{Enkh-Erdene Bolormaa}{http://enkhee-Osiris.github.io}{enkhee.ag@gmail.com}{+976 88788507}{Khan-Uul district}{Ulaanbaatar}
+
+
+\end{document}

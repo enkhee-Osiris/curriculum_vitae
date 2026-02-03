@@ -1,0 +1,97 @@
+#+TITLE: Zac West -- iOS Engineer
+#+AUTHOR: Zac West
+#+LANGUAGE: en
+#+OPTIONS: toc:nil num:nil
+#+LATEX_CLASS: article
+#+LATEX_HEADER: \usepackage[a4paper,margin=1in]{geometry}
+#+LATEX_HEADER: \usepackage{parskip}
+#+LATEX_HEADER: \usepackage{titlesec}
+#+LATEX_HEADER: \usepackage{xcolor}
+#+LATEX_HEADER: \usepackage{enumitem}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \usepackage{multicol}
+#+LATEX_HEADER: \hypersetup{colorlinks=true, urlcolor=blue}
+#+LATEX_HEADER: \pagenumbering{gobble}
+#+LATEX_HEADER: \titleformat{\section}{\large\bfseries\sffamily\color{gray}}{}{0em}{}
+#+LATEX_HEADER: \titleformat{\subsection}[runin]{\bfseries\sffamily\color{black}}{}{0em}{}[\hfill]
+#+EXPORT_FILE_NAME: zac-west-cv.pdf
+
+\begin{multicols}{2}
+
+* Zac West
+:PROPERTIES:
+:CUSTOM_ID: header
+:END:
+\textbf{Location:} San Francisco, CA\\
+\textbf{Website:} \href{https://zacwe.st}{zacwe.st}\\
+
+\columnbreak
+
+\Large\textbf{I put Apple frameworks through their paces.}
+
+\end{multicols}
+
+* Work Experience
+
+\begin{multicols}{2}
+
+\textit{Dec 2018 -- Current}
+
+\columnbreak
+\textbf{Dropbox} \\
+\textit{Staff Mobile Engineer}
+
+- Built a reusable theming module, refactored and rewrote almost every view in the app to support Dynamic Type and Dark Mode.
+- Overhauled accessibility support to meet WCAG 2.1 level AA standards.
+- Mentored engineers, improved developer tooling, evangelized RxSwift, and helped define internal processes.
+
+\end{multicols}
+
+\begin{multicols}{2}
+
+\textit{Oct 2015 -- Nov 2018}
+
+\columnbreak
+
+\textbf{Imgur} \\
+\textit{Lead iOS Engineer} \\
+Picked up and fell in love with Swift. Architected and rewrote the app to be extensible and easy to build in. Managed the iOS team.
+
+- Rewrote the iOS app in Swift to be modular and extensible. \\
+- Managed the iOS team and led feature planning and architecture. \\
+- Built reusable UI components, a feed system, and a background uploading system.
+
+\end{multicols}
+
+\vspace{1em}\hrule\vspace{1em}
+\begin{multicols}{2}
+
+\textbf{Free} \\
+\textit{Software Engineer} \\
+\textit{Feb 2015 -- Sep 2015}
+\columnbreak
+- Rapidly iterated from beta to App Store release of a messaging app.
+- Developed custom UICollectionViews and Core Data networking layer.
+
+\end{multicols}
+\vspace{1em}\hrule\vspace{1em}
+\begin{multicols}{2}
+
+\textbf{Hey Inc.} \\
+\textit{Lead iOS Developer} \\
+\textit{Jan 2013 -- Jan 2015}
+\columnbreak
+- First iOS engineer on Heyday, a journaling app that reached over a million downloads.
+- Built full-featured sync and backup system.
+- Contributed to all aspects of app design and engineering.
+
+\end{multicols}
+
+* Skills
+- Swift, Objective-C, RxSwift
+- UIKit, Core Data, Auto Layout
+- Git, Xcode, Instruments
+- Accessibility, Dynamic Type, Theming
+
+* Education
+** B.Sc. in Computer Science -- University of Example, 2010 -- 2014

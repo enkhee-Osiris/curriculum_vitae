@@ -1,0 +1,104 @@
+Creating a great CV (Curriculum Vitae) requires clarity, relevance, and strong presentation. Here's a step-by-step guide with key tips to help you stand out—whether you're applying for a job, internship, or academic position:
+
+---
+
+### ✅ 1. **Choose the Right Format**
+
+* **Reverse chronological** – Most common; highlights your most recent experience first.
+* **Functional (skills-based)** – Focuses on skills, good for career changers or those with gaps.
+* **Combination (hybrid)** – Skills and work experience; ideal for professionals with diverse experience.
+
+---
+
+### ✅ 2. **Structure of a Great CV**
+
+**1. Contact Information**
+
+* Full name
+* Phone number
+* Professional email
+* LinkedIn profile / portfolio / website (optional)
+
+**2. Personal Statement / Summary (3–4 lines)**
+
+* Briefly state who you are, your strengths, and what you’re looking for.
+
+> Example:
+> *UI/UX designer with 3 years of experience creating intuitive digital products. Skilled in Figma, prototyping, and user research. Seeking a role to craft user-centered designs that solve real-world problems.*
+
+**3. Key Skills**
+
+* Use bullet points or columns.
+* Tailor them to the job description.
+
+> Example:
+>
+> * Wireframing & Prototyping
+> * User Research
+> * Adobe XD, Figma, Sketch
+> * Responsive Design
+> * HTML/CSS Basics
+
+**4. Work Experience**
+*(Start with your most recent job)*
+
+* **Job Title**, Company – *Location* (Month/Year – Month/Year)
+
+  * What you did
+  * Tools/skills used
+  * Accomplishments (use numbers if possible)
+
+> Example:
+> **UI Designer**, PixelCraft Studio – Ulaanbaatar (Feb 2022 – Present)
+>
+> * Designed 10+ web/mobile interfaces using Figma
+> * Improved onboarding flow, increasing user retention by 22%
+> * Conducted 30+ usability tests
+
+**5. Education**
+
+* Degree, School – *Location* (Year–Year)
+* Include achievements, GPA (if high), relevant courses, or awards
+
+**6. Certifications (if any)**
+
+* Google UX Design, Coursera – *2024*
+* Adobe Certified Associate – *2023*
+
+**7. Projects (optional but helpful, especially for creatives or students)**
+
+* Short descriptions, tools used, and outcomes
+* Add links to live demos or GitHub if relevant
+
+**8. Languages / Interests (optional)**
+
+* Only include if relevant or if it strengthens your profile.
+
+---
+
+### ✅ 3. **Design and Presentation**
+
+* Keep it **1–2 pages**
+* Use a **professional font** (e.g., Calibri, Lato, Helvetica)
+* Clear headings, bullet points, and white space
+* Save as **PDF** (never Word unless asked)
+
+---
+
+### ✅ 4. **Tailor It**
+
+* Customize your CV for **each application**
+* Use keywords from the job description
+* Highlight relevant experiences first
+
+---
+
+### ✅ 5. **Final Touches**
+
+* **Proofread**: Spelling and grammar must be perfect
+* Ask a friend or mentor to review it
+* Keep a master CV and create tailored versions from it
+
+---
+
+Would you like me to review or help design your CV based on your background (e.g., as a UI/UX student and software engineer)? I can even generate a tailored CV template for you.

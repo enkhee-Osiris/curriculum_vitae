@@ -8,6 +8,7 @@
 % <<< packages
 \RequirePackage{latexsym,amsmath,amssymb,charter,color,calc,hyperref,titlesec}
 \RequirePackage[empty]{fullpage}
+\RequirePackage{xstring}
 % >>>
 
 % <<< dimensions/margins
@@ -27,13 +28,13 @@
 % >>>
 
 %% Document header
-\newcommand{\resheader}[6]{
-    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}cr}
-    #3 & \textbf{\LARGE #1} & #5\\
-    #4 & \url{#2}           & #6\\
-    \end{tabular*}
-    \\
-    \vspace{0.1in}
+\newcommand{\resheader}[6]{%
+  \StrDel{#4}{+}[\tmpA]%
+  \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}cr}%
+    \href{mailto:#3}{#3} & \textbf{\LARGE #1} & #5\\
+    \href{tel:\tmpA}{#4} & \url{#2} & #6\\
+  \end{tabular*}
+  \vspace{0.1in}
 }
 
 %% Enumerations
@@ -70,5 +71,6 @@
             {0pt} %sep
             {} %before-code
             [] %after-code
+
 \titlespacing{\subsubsection}{0pt}{0pt}{0pt}[{0pt}]
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
